@@ -38,23 +38,26 @@
                       </div>
                 </div>
                 <br>
+                <?php $query = 'SELECT * FROM categories LIMIT 4';
+                      $select_cat_query = $conn->query($query); ?>
                 <table class="table table-striped table-hover">
                       <tr>
                         <th>Id</th>
                         <th>Title</th>
                         <th></th>
                       </tr>
-                      <tr>
-                        <td>BasketBall Category</td>
-                        <td>BasketBall Category</td>
-                        <td><a class="btn btn-default" type="button" data-toggle="modal" data-target="#addCategories">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
-                      </tr>
-                      <tr>
-                        <td>BasketBall Category</td>
-                        <td>BasketBall Category</td>
-                        <td><a class="btn btn-default" type="button" data-toggle="modal" data-target="#addCategories">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
-                      </tr>
-                    </table>
+                  <?php 
+                  while($row = $select_cat_query->fetch_assoc()){
+                      $cat_title = $row['cat_title'];
+                      $cat_id = $row['cat_id'];
+
+                      echo "<tr>";
+                      echo "<td>{$cat_id}</a></td>";
+                      echo "<td>{$cat_title}</a></td>";
+                      echo "<td><a class='btn btn-default' type='button' data-toggle='modal' data-target='#addCategories'>Edit</a> <a class='btn btn-danger' href='#'>Delete</a></td>";
+                      echo "</tr>";
+                  } ?>
+                </table>
               </div>
               </div>
 
