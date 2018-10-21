@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10">
-            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Pages<small>Manage Site Pages</small></h1>
+            <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Posts<small>Manage Blog Posts</small></h1>
           </div>
           <div class="col-md-2">
             <div class="dropdown create">
@@ -28,7 +28,7 @@
       <div class="container">
         <ol class="breadcrumb">
           <li><a href="index.html">Dashboard</a></li>
-          <li class="active">Pages</li>
+          <li class="active">Posts</li>
         </ol>
       </div>
     </section>
@@ -36,17 +36,17 @@
     <section id="main">
       <div class="container">
         <div class="row">
-          <?php include 'includes/sidebar.php' ?>
+        <?php include 'includes/sidebar.php' ?>
           <div class="col-md-9">
             <!-- Website Overview -->
             <div class="panel panel-default">
               <div class="panel-heading main-color-bg">
-                <h3 class="panel-title">Pages</h3>
+                <h3 class="panel-title">Posts</h3>
               </div>
               <div class="panel-body">
                 <div class="row">
                       <div class="col-md-12">
-                          <input class="form-control" type="text" placeholder="Filter Pages...">
+                          <input class="form-control" type="text" placeholder="Filter Posts...">
                       </div>
                 </div>
                 <br>
@@ -58,25 +58,25 @@
                         <th></th>
                       </tr>
                       <tr>
-                        <td>Home</td>
+                        <td>Blog Post 1</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 12, 2016</td>
                         <td><a class="btn btn-default" href="edit.html">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
                       </tr>
                       <tr>
-                        <td>About</td>
+                        <td>Blog Post 2</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
                         <td><a class="btn btn-default" href="edit.html">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
                       </tr>
                       <tr>
-                        <td>Services</td>
+                        <td>Blog Post 3</td>
                         <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
                         <td><a class="btn btn-default" href="edit.html">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>
                       </tr>
                       <tr>
-                        <td>Contact</td>
+                        <td>Blog Post 4</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 14, 2016</td>
                         <td><a class="btn btn-default" href="edit.html">Edit</a> <a class="btn btn-danger" href="#">Delete</a></td>

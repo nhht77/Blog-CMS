@@ -12,9 +12,10 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="./index.php">Dashboard</a></li>
-            <li><a href="./pages.php">Pages</a></li>
             <li><a href="./posts.php">Posts</a></li>
+            <li><a href="./categories.php">Categories</a></li>
             <li><a href="./users.php">Users</a></li>
+            <li><a href="./comments.php">Comments</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Welcome, Brad</a></li>
